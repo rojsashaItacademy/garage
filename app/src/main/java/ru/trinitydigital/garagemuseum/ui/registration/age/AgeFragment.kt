@@ -5,6 +5,9 @@ import ru.trinitydigital.garagemuseum.base.BaseFragment
 
 class AgeFragment : BaseFragment() {
 
+
+
+
     override fun getViewId() = R.layout.fragment_age
 
 }
