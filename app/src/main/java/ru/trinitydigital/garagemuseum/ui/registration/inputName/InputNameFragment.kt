@@ -19,6 +19,7 @@ class InputNameFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupListeners()
+        tvWriter.animateText("safdasfasfasd asdasdasd asdasdasdasd asdsadasdasd asdsasadasd sadsadasdasd sad123", 25)
     }
 
     private fun setupListeners() {
