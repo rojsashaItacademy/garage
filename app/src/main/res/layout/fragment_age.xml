@@ -73,6 +73,7 @@
         android:layout_height="40dp"
         android:progressDrawable="@drawable/bg_seeknbar"
         android:rotation="270"
+        android:max="15"
         android:splitTrack="false"
         android:thumb="@drawable/ic_seekbar"
         android:thumbOffset="10dp"

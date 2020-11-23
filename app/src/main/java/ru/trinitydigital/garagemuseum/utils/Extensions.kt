@@ -18,7 +18,6 @@ fun startCoroutinesTimer(
         var position = 0
         if (repeatCount > 0) {
             while (position < repeatCount) {
-                action()
                 delay(delayMillis)
                 position++
             }
@@ -28,7 +27,6 @@ fun startCoroutinesTimer(
         }
     }
 }
-
 
 fun SeekBar.setSeekBarChangeListener(action: (Int) -> Unit) {
     setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {

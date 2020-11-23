@@ -28,7 +28,7 @@ class AgeFragment : BaseFragment() {
 
     private fun setupListeners() {
         seekBar.setSeekBarChangeListener {
-            tvAge.text = it.toString()
+            tvAge.text = if (it == 15) "16+" else (it + 1).toString()
             AnimationUtils.animateScale(imgRedMan, lastScale, it.toFloat())
             lastScale = it.toFloat()
         }
